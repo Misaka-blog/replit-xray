@@ -16,6 +16,7 @@
 
 ![image](https://user-images.githubusercontent.com/122191366/218304834-5bebffb1-882c-43eb-ba80-6af020575df9.png)
 
+* 将项目文件全部上传
 * 点击左侧Secrets，在右侧选项卡设置uuid变量以自定义uuid或Trojan / Shadowsocks协议的密码（UUID生成器：https://www.uuidgenerator.net/）
 
 ![image](https://user-images.githubusercontent.com/122191366/218304846-6c6f80f9-b5ce-4eeb-82dd-5f201f1fc2bf.png)
