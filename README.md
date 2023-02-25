@@ -1,6 +1,6 @@
 # replit-xray
 
-Replit代码平台搭建Xray文件备份
+在 Replit 代码平台上部署 xray 节点
 
 ## 赞助
 
