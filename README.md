@@ -1,5 +1,7 @@
 # xray for replit
 
+在 Replit 代码平台上部署 xray 节点
+
 ## 项目特点
 
 * 本项目用于在 [Replit](https://replit.com/) 免费服务上部署 vmess / vless / trojan / shadowsocks 节点
@@ -17,7 +19,15 @@
 ![image](https://user-images.githubusercontent.com/122191366/218304834-5bebffb1-882c-43eb-ba80-6af020575df9.png)
 
 * 将项目文件全部上传
-* 点击左侧Secrets，在右侧选项卡设置uuid变量以自定义uuid或Trojan / Shadowsocks协议的密码（UUID生成器：https://www.uuidgenerator.net/）
+* 点击左侧Secrets，在右侧选项卡设置uuid变量。变量内容如下所示：
+
+  | 变量名 | 是否必须 | 默认值 | 备注 |
+  | ------------  | ------ | ------ | ------ |
+  | UUID          | 否 | 随机生成 | 可在线生成 https://www.uuidgenerator.net/ |
+  | VMESS_WSPATH  | 否 | /vm | 以 / 开头 |
+  | VLESS_WSPATH  | 否 | /vl | 以 / 开头 |
+  | TROJAN_WSPATH | 否 | /tr | 以 / 开头 |
+  | SS_WSPATH     | 否 | /ss | 以 / 开头 |
 
 ![image](https://user-images.githubusercontent.com/122191366/218304846-6c6f80f9-b5ce-4eeb-82dd-5f201f1fc2bf.png)
 
@@ -25,11 +35,6 @@
 * 点击Webview里面的小铅笔图标，按照步骤绑定域名
 
 ![image](https://user-images.githubusercontent.com/122191366/218304873-3aefe218-272f-4a1b-b0ee-0e4552b12db7.png)
-
-<<<<<<< HEAD
-在 Replit 代码平台上部署 xray 节点
-=======
->>>>>>> cb6a692f91baa7c5acd25a178ade989baea87887
 
 ## 赞助
 
