@@ -9,7 +9,7 @@
 
 ## 部署
 
-* 下载压缩包并解压
+* 下载压缩包并解压（下图为老项目图，仅供参考）
 
 ![image](https://user-images.githubusercontent.com/122191366/218304812-289de515-cd33-4233-b42d-184647715d34.png)
 
